@@ -158,6 +158,20 @@ class _HomeState extends State<Home> {
                 //
 
               ),
+              SizedBox(height: 20,),
+              TextButton( onPressed: (){
+                Navigator.pushNamed(context, "/HasirSuresiSonUcAyet");
+              },
+                style: TextButton.styleFrom(
+                  foregroundColor: Colors.white,
+                  backgroundColor: Colors.blue.shade500,
+                  side: const BorderSide(color: Colors.white,width: 1.5),
+
+                ), child:Text("HasirSuresiSonUcAyet"),
+                // borderRadius: BorderRadius.circular(50)),
+                //
+
+              )
              // SizedBox(height: 20,),
             ],
           ) ,

@@ -7,6 +7,7 @@ import 'package:most_reading_duas/dualar/nazar.dart';
 import 'package:most_reading_duas/dualar/tefriciye.dart';
 import 'package:most_reading_duas/dualar/Amenerresulu.dart';
 import 'package:most_reading_duas/dualar/HacetDuasi.dart';
+import 'dualar/HasirSuresiSonUcAyet.dart';
 import 'dualar/huvallahullezi.dart';
 import 'package:most_reading_duas/dualar/SabahDualari.dart';
 import 'package:most_reading_duas/dualar/AksamDualari.dart';
@@ -29,6 +30,7 @@ void main() {
       "/HacetDuasi":(context)=>HacetDuasi(),
       "/SabahAksamDualari":(context)=>SabahAksamDualari(),
       "/AksamDualari":(context)=>AksamDualari(),
+      "/HasirSuresiSonUcAyet":(context)=>HasirSuresiSonUcAyet(),
     },
 
   ));
